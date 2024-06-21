@@ -11,9 +11,9 @@ function Hero() {
           I am a full stack developer
         </p>
         <a
-          href="#"
+          href="#portfolio"
           className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"
-        >Portfolio</a>
+        >My Projects</a>
       </div>
     </div>
   );
