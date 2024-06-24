@@ -10,10 +10,7 @@ function Hero() {
         <p className="text-sky-400 text-md md:text-xl max-w-md mb-3 mx-auto">
           I am a full stack developer
         </p>
-        <a
-          href="#portfolio"
-          className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"
-        >My Projects</a>
+        
       </div>
     </div>
   );

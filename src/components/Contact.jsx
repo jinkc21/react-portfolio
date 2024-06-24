@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="text-sky-600">
+    <div id="contact" className="text-sky-600">
       <h3>Contact</h3>
       <p>Email: 
         <a href="mailto:

@@ -1,16 +1,26 @@
 // components/Header.js
-// import React from 'react';
-// import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Navigation from './UI/Navigation';
 
 const Header = () => {
   return (
     <header>
-      <h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-sky-600 font-bold">Jin Choe</h1>
+      <h1 className="text-6xl md:text-8xl mb-1 md:mb-3 text-sky-600 font-bold">Jin Choe</h1>
       <nav>
-        {/* <NavLink to="/about">About Me</NavLink>
-        <NavLink to="/portfolio">Portfolio</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/resume">Resume</NavLink> */}
+      <a
+          href="#about"
+          className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"
+        >About Me</a>
+        <a
+          href="#portfolio"
+          className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"
+        >My Projects</a>
+        <a
+          href="#contact"
+          className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"
+        >Contact Info</a>
+        
       </nav>
     </header>
   );

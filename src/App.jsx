@@ -37,7 +37,7 @@ function App() {
     <button
     type='button'
     onClick={handleThemeChange}
-    className='fixed z-10 right-10 top-10 bg-gray-800 text-white rounded-full'
+    className='fixed z-10 right-5 top-5 bg-gray-800 text-white rounded-full'
     >{theme === 'dark' ? '☀️' : '🌙'}</button>
     <div className='font-permanent-marker-regular bg:white dark:bg-gray-800'>
       <Header />
