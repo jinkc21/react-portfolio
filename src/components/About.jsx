@@ -1,9 +1,10 @@
-import React from "react";
+// import React from "react";
 
 function About() {
     return (
-        <div id="about" className="flex items-center justify-center flex-col py-20">
-        <div className="container mx-auto py-20 text-center">
+        <div id="about" className="flex items-center justify-center flex-col">
+        <div className="container mx-autotext-center">
+        <img className="block mx-auto max-w-md"  src="./images/profile.jpg" alt='profile pic' />
             <h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-sky-600 font-semibold">
             About Me
             </h1>

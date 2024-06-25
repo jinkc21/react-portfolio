@@ -1,7 +1,4 @@
-// import React from "react";
-
-
-function Projects({ title, description, image, github, deployed}) {
+function Collaborations({ title, description, image, github, deployed}) {
     return (
         <div className="text-sky-600 py-5">
             <h2 className="text-md md:text-xl max-w-md mb-3 mx-auto">{title}</h2>
@@ -14,4 +11,4 @@ function Projects({ title, description, image, github, deployed}) {
     );
 }
 
-export default Projects; 
+export default Collaborations; 
