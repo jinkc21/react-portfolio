@@ -7,9 +7,9 @@ function Projects({ title, description, image, github, deployed}) {
             <h2 className="text-md md:text-xl max-w-md mb-3 mx-auto">{title}</h2>
             <p>{description}</p>
             <img className="block mx-auto" src={image} alt={title} />
-            <a href={github}>Github</a>
+            <a href={github}>Github Page</a>
             <br />
-            <a href={deployed}>Deployed</a>
+            <a href={deployed}>Deployed Page</a>
               </div>
     );
 }
