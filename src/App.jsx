@@ -45,6 +45,7 @@ function App() {
       <About />
       <Portfolio />
       <Contact />
+      {/* <Resume /> */}
       <Footer />
       <div>
   
