@@ -5,9 +5,9 @@
 
 const Header = () => {
   return (
-    <header>
+    <header className="sticky top-0 z-50 bg-opacity-90 backdrop-filter backdrop-blur-lg">
       <h1 className="text-6xl md:text-8xl mb-1 md:mb-3 text-sky-600 font-bold">Jin Choe</h1>
-      <nav>
+      <nav >
       <a
           href="#about"
           className="bg-sky-500 hover:bg-sky-600 text-gray-800 font-bold py-2 px-4 rounded-full md:text-md"

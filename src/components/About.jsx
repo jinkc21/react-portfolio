@@ -2,7 +2,7 @@
 
 function About() {
     return (
-        <div id="about" className="flex items-center justify-center flex-col">
+        <div id="about" className="flex items-center justify-center flex-col mt-40 mb-40">
         <div className="container mx-autotext-center">
         <img className="block mx-auto max-w-md"  src="./images/profile.jpg" alt='profile pic' />
             <h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-sky-600 font-semibold">

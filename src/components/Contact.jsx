@@ -34,7 +34,7 @@ function Contact() {
 
   return (
     <div id="contact">
-      <h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-sky-600 font-semibold">Contact Me</h1>
+      <h1 className="text-2xl md:text-4xl mb-40 md:mb-3 text-sky-600 font-semibold mt-40">Contact Me</h1>
           <div className="py-6 max-w-md mx-auto">
           <ContactForm />
         </div>

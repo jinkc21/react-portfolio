@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -37,15 +37,15 @@ function App() {
     <button
     type='button'
     onClick={handleThemeChange}
-    className='fixed z-10 right-5 top-5 bg-gray-800 text-white rounded-full'
+    className='fixed z-10 right-3 top-[calc(100px+30px)] bg-gray-800 text-white p-2 rounded-full'
     >{theme === 'dark' ? '☀️' : '🌙'}</button>
     <div className='font-permanent-marker-regular bg:white dark:bg-gray-800'>
       <Header />
       <Hero />
+      <Resume />
       <About />
       <Portfolio />
       <Contact />
-      {/* <Resume /> */}
       <Footer />
       <div>
   
